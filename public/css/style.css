@@ -1,0 +1,282 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+body{
+	width: 100%;
+	height: 100%;
+	color: rgb(85, 52, 0);
+	background: #FFC973;
+	font-size: 1em;
+	font-family: "Comic Sans MS", sans-serif;
+	line-height: 135%;
+}
+a{
+	color: #E40045;
+	text-decoration: none;
+}
+a:hover{
+	color: #656565;
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	width: auto\9;
+}
+
+header, #footer{
+	width: 98%;
+	background-color: #fff;
+	height: auto;
+}
+
+header{
+	position: fixed;
+	left:0; top:0;
+	padding: 1%;
+	border-bottom: 2px solid #f58b8b;
+	-webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+}
+
+#footer{
+	font-size: 1em;
+	position: fixed;
+	left:0; bottom:0;
+	padding: 1%;
+	border-top: 2px solid #f58b8b;
+	text-align: right;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	height: 25px;
+}	
+
+a#logo{
+	color: #656565;
+	font-size: 3em;
+	font-family: Comic Sans MS, sans-srif;	
+	margin-top: 2%; 
+}
+
+header .right{
+	font-size: 1em;
+	font-family: Comic Sans MS, sans-srif;
+	float:right;
+    margin-top: 3px;
+	padding: 15px;
+}
+
+#contact{
+	font-size: 1.5em;
+	font-family: Comic Sans MS, sans-srif;
+	margin-left: 15px;
+}
+
+header #search{
+	font-size: 0.75em;
+	border: 1px solid silver;
+	border-radius: 10px;
+	padding: 5px 10px;
+	margin:0.3%;
+    margin-top: 0.70%;
+	margin-right: 30px;
+}
+
+#search:focus{
+	border: 1px solid rgba(250, 99, 144, 0.979);
+}
+
+html{
+	height: 100%;
+}
+
+#content{
+	height:100%;
+	width:100%;
+}
+
+.item{/* для элементов страницы*/
+	float:left;
+	width:26.5%;
+	height: auto;
+	text-align: center;
+	font-size: 1.5em;
+	font-family: Comic Sans MS, sans-srif;
+	border-radius: 5px;
+	border: 2px solid gray;
+	margin-top:0.5%;
+	margin-left:0.5%;
+	background-color:#fff
+}
+header .regButton{
+	padding: 6px 14px;
+}
+
+.gender{
+	margin-left: 10px;
+	font-size: 0.85em;
+	padding: 1%;
+}
+input.gender{
+	margin-right: -10px;
+}
+#regButton{
+	color: #E40045;
+	background: #ffffff;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	padding: 6px 14px;
+	margin: 0.3%;
+	cursor: pointer;
+}
+#regButton:hover{
+	color: rgb(177, 10, 60);
+	background: #ece9e9;
+	border: 1px solid #272626;
+	
+}
+#loginButton{
+	color: #E40045;
+	background: #ffffff;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	padding: 6px 14px;
+	margin: 0.3%;
+	cursor: pointer;
+}
+#loginButton:hover{
+	color: rgb(177, 10, 60);
+	background: #ece9e9;
+	border: 1px solid #272626;
+	
+}
+.submitButton{
+	border: 1px solid #656565;
+	width: 280px;
+	color: #E40045;
+	background: #ffffff;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	padding: 10px 14px;
+	margin: 0.3%;
+	cursor: pointer;
+}
+.submitButton:hover{
+color: rgb(177, 10, 60);
+background: #ece9e9;
+border: 1px solid #272626;
+}
+
+.close{
+	margin: 15px 0 0 320px;
+	cursor: pointer;
+	border: 1px solid #ccc;
+	border-radius: 15px;
+	padding: 2px;
+	background: #ccc;
+}
+
+.close:hover{background: #ffffff;}
+
+label{
+	font-size: 0.85em;
+	text-align: left;
+	margin-left: 10px;
+}
+.form1 h2{
+	text-align: center;
+}
+.form2 h2{
+	text-align: center;
+}
+.form1{
+	position: fixed;
+	left: 0;
+	right: 0;
+	color: #272626;
+	width: 275px;
+	margin: -10px auto 20px auto; 
+	margin-bottom: 10px;
+}
+.form2{
+	position: fixed;
+	left: 0;
+	right: 0;
+	color: #272626;
+	width: 275px;
+	margin: -10px auto 20px auto; 
+	margin-bottom: 10px;
+}
+.input{
+	border-radius: 10px;
+	border: 1px solid #656565;
+	width: 260px;
+	padding: 10px;
+	margin-top: 5px;
+}
+.input:focus{
+	border: 1px solid rgba(250, 99, 144, 0.979);
+	width: 260px;
+	padding: 10px;
+	margin-top: 5px;
+}
+
+.radio{
+	margin-bottom: 10px;
+}
+
+.regButton:hover {background: #ccc;}
+
+#wind2{
+	width: 350px; 
+	height: 530px;
+	margin: 40px auto; 
+	background:#ffffff;
+	border: 1px solid #ffffff; 
+	border-radius: 15px; 
+	z-index: 150;
+	display: none;
+	position: fixed; 
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+
+}#wind1{
+	width: 350px; 
+	height: 330px;
+	margin: 40px auto; 
+	background:#ffffff;
+	border: 1px solid #ffffff; 
+	border-radius: 15px; 
+	z-index: 150;
+	display: none;
+	position: fixed; 
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+#gray{
+	background-color: rgba(1,1,1,0.75); 
+	position: fixed; 
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	display: none;
+	z-index: 100;
+}
+#iframe{
+	margin-top: 5%;
+	margin-bottom: 4%;
+	border: none;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+.shadowContent{
+	display: block;
+}

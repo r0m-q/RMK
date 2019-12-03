@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html"; charset="Utf-8" />
+        <meta name="keywords" content="shop, phones" />
+		<meta name="description" content="Интернет магазин электроники!" />
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<script src = " js/script.js " charset="utf-8"> </script>
+        <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+		<title>Shop</title>
+    </head>
+    <body>
+		<header>
+			<a href="index.html" title="На главную" id="logo">Sh0p</a>
+			<a href="index.html" title="Информация о нас" id="contact">О нас</a>
+			<button onclick="show1('block')" id="loginButton" class="right" title="Войти">Вход</button>
+			<button onclick="show2('block')" id="regButton" class="right" title="Зарегистрироваться">Регистрация</button>
+			<input type="search" id = "search"class="right" placeholder="Поиск по сайту">
+		</header>
+		<div id="shadowContent">
+		</div>
+			<div onclick="show('none')" id="gray"></div>
+			<iframe id="iframe" src="https://www.figma.com/embed?embed_hos
+			t=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FmU5PHDeAsPv1dWLJwh5vsP%2FUntitled%3Fnode-id%3D1%253A3" 
+			allowfullscreen>Мояоя первая дизайнерская работа</iframe>
+			<div id="wind2">
+					<img onclick="show('none')" class="close" src="img/close.png" alt="">
+					<div class="form2">
+						<h2 class="form2">Регистрация</h2><br/><br/>
+						<form action="" method="post" name="test" id="form2" class="form2">
+							<label for="name">Имя:</label>
+							<input type="text" name="name" placeholder="Введите имя" id="name" class="input"/><br/><br/>
+							<label for="Email">E-mail:</label>
+							<input type="text" name="Email" placeholder="Введите Email" id="Email" class="input"/><br/><br/>
+							<label for="Password">Пароль:</label>
+							<input type="Password" name="Password" placeholder="Введите пароль " 
+							id="Password" class="input"/><br/><br/>
+							<label for="RePassword">Повторите пароль:</label>
+							<input type="Password" name="RePassword" placeholder="Введите пароль" 
+							id="RePassword" class="input"/><br/><br/>
+							<span class="gender">Пол:</span>
+							<input type="radio" id="mail"  name="gender" value="Мужской" class="gender"/>
+							<label id="mail" class="gender" for="mail">Мужской</label>
+							<input type="radio" id="femail" name="gender" value="Женский" class="gender"/>
+							<label id="femail" class="gender" for="femail">Женский</label><br/><br/>
+							<input type="button" onclick="valid(document.getElementById('form2'))" name="button" 
+							value="Зарегистрироваться" id="submitButton" class="submitButton">
+						</form>
+					</div>
+				</div>
+				<div id="wind1">
+					<img onclick="show('none')" class="close" src="img/close.png" alt="">
+					<div class="form1">
+						<h2 class="form1">Вход</h2><br/><br/>
+						<form action="" method="post" name="test" id="form1"class="form1">
+							<label for="Email2">E-mail:</label>
+							<input type="text" name="Email" placeholder="Введите Email" id="Email2" class="input"/><br/><br/>
+							<label for="Password2">Пароль:</label>
+							<input type="Password" name="Password" placeholder="Введите пароль" 
+							id="Password2" class="input"/><br/><br/><br/>
+							<input type="button" onclick="valid(document.getElementById('form1'))" name="button" 
+							value="Войти" id="submitButton" class="submitButton">
+						</form>
+					</div>
+				</div>
+			</div>
+        <footer id="footer">
+			<a href="about.html">About</a>
+			<a href="contacts.html">Contacts</a>
+		<footer>
+    </body>
+</html>
